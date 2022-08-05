@@ -23,19 +23,27 @@ highlight LineNr ctermfg=grey
 
 filetype plugin indent on
 
+syntax on
+
+set history=500
+set autoread
 set nocompatible
+
 set expandtab
 set smarttab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set mouse=a
+
 set ignorecase
 set smartcase
 set hlsearch
 set incsearch
+
 set encoding=utf8
 set wrap linebreak nolist
 
-syntax on
+set mouse=a
+set so=7
+set ffs=unix,dos,mac
 
